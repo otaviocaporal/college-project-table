@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.tabela {
+    width: 1142px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 15px 20px -10px #000000;
+    padding: 12px;
+}
+td, th{
+    padding: 8px 12px 8px 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+td {
+    border-bottom: 1px solid #ccc; /* Linha fina e cinza abaixo de cada célula */
+}
+tr:last-child td {
+    border-bottom: none; /* Remove a linha abaixo da última linha */
+}
+
+.fotos {
+    height: auto;
+    width: 32px;
+}
+.icon {
+    width: 17px;
+    gap: 3px;
+}
+table {
+    border-spacing: 0px; /* Espaçamento entre colunas */
+}
+.tableheader {
+    padding: 8px 12px 8px 12px;
+    background-color: #E5E7EB;
+    height: 32px;
+    border-collapse: collapse; /* Remove espaços entre bordas */
+    width: 100%;
+}
+.c1 {
+    text-align: left;
+    align-items: center;
+    width: 167px;
+}
+.c2 {
+    text-align: left;
+    align-items: center;
+    width: 135px;
+}
+.c3 {
+    text-align: left;
+    align-items: center;
+    width: 84px;
+}
+.c4 {
+    text-align: left;
+    align-items: center;
+    width: 135px;
+}
+.c5 {
+    text-align: left;
+    align-items: center;
+    width: 135px;
+}
+.c6 {
+    text-align: left;
+    align-items: center;
+    width: 135px;
+}
+.c7 {
+    text-align: left;
+    align-items: center;
+    width: 242px;
+}
+.c8 {
+    text-align: right;
+    align-items: center;
+    width: 85px;
+    display: flex;
+}
+.nomes {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 48px;
+    padding: 8px 12px 8px 12px;
+}
+.status {
+    display: flex; 
+    padding: 2px 2px;  /* Ajusta o espaçamento interno */
+    text-align: center;
+    align-items: center;
+}
+.circle {
+    display: flex;
+    width: 9px; /* Tamanho do círculo */
+    height: 9px; /* Tamanho do círculo */
+    border-radius: 50%; /* Forma de círculo */
+    margin-right: 6px; /* Espaço entre o círculo e o texto */
+    margin-left: 2px;
+}
+.status, circle {
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+.on {
+    background-color: green; /* Cor do círculo */
+}
+.busy {
+    background-color: red;
+}
